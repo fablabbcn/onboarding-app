@@ -44,8 +44,8 @@ angular.module('app').factory('platform', function($rootScope, SegueService, Res
     }
 
     function connect(){
-        socket = io.connect('wss://smartcitizen.xyz');
-    }    
+        socket = io.connect('wss://ws.smartcitizen.me');
+    }
 
     function listenDevices(then){
         if (!socket) connect();
