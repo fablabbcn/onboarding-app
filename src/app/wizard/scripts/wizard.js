@@ -13,13 +13,13 @@ angular.module('app').controller('wizardCtrl', function($scope, $location, $sce,
 
     $scope.submittedData.deviceData = {
         device_token: session.device_token,
-        description: 'Making Sense Pilot #1',
+        description: 'New York Consensus Event #1',
         exposure: 'outdoor',
-        kit_id: 11
+        kit_id: 14
     };
 
     console.log( $scope.submittedData.deviceData.user_tags_array);
-    $scope.submittedData.deviceData.user_tags_array = ["MakingSense", "Barcelona", "Plaça del sol", "MS1"];
+    $scope.submittedData.deviceData.user_tags_array = ["Experimental", "Research"];
 
     $scope.onboarding_session = session.onboarding_session;
 
