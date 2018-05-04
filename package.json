@@ -76,6 +76,7 @@
   "dependencies": {
     "browser-sync": "^2.13.0",
     "gulp-util": "^3.0.7",
+    "npm": "^6.0.0",
     "wiredep": "^4.0.0",
     "wrench": "^1.5.9"
   }
